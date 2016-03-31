@@ -3,7 +3,7 @@
 public class Arhitectura2 {
 
 	public static void main(String[] args) {
-		int []v={5,10,10,9,5,2,5,8,5,2};
+		int []v={5,10,10,9,5,1,5,8,5,2};
 		int i,j,aux=0;
 		for(i=0;i<v.length-1;i++)
 		{
@@ -22,7 +22,7 @@ public class Arhitectura2 {
 		{
 			System.out.printf(v[i]+ " ");
 		}
-		System.out.println(" ");
+		System.out.println();
 		System.out.printf("0 ");
 		for(i=1;i<v.length-1;i++)
 		{
