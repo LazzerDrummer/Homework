@@ -2,7 +2,7 @@
 public class matrice {
 
 	public static void main(String[] args) {
-		int n=4,i,j;
+		int i,j;
 		int [][]v=new int[][]{{14,1,0,1},
 							  {0,28,1,8},
 							  {0,3,18,8},
@@ -19,7 +19,7 @@ public class matrice {
 				else break;
 			}
 		}
-		printMatricePatrata(v, n);
+		printMatricePatrata(v);
 
 	}
 	
@@ -46,12 +46,12 @@ public class matrice {
 			}
 	}
 	
-	public static void printMatricePatrata(int [][]v,int n) {
+	public static void printMatricePatrata(int [][]v) {
 		int i,j;
-		for(i=0;i<n;i++)
+		for(i=0;i<v.length;i++)
 		{
 			System.out.println();
-			for(j=0;j<n;j++)
+			for(j=0;j<v.length;j++)
 			{
 				System.out.printf(v[i][j]+" ");
 			}
